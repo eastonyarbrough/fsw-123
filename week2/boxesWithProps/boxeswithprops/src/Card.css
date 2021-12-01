@@ -1,0 +1,15 @@
+#root {
+    display: flex;
+}
+
+.myBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.boxContainer {
+    margin: 0px 15px;
+}
