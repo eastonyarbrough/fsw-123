@@ -1,6 +1,6 @@
 import './App.css';
 import MyList from './TodoList.js'
-import todos from './Store.js'
+import todos from './STORE.js'
 
 function App() {
   return (
@@ -14,6 +14,3 @@ function App() {
 }
 
 export default App;
-
-
-
