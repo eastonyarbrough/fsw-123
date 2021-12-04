@@ -7,5 +7,3 @@ const todos = [
 ]
 
 export default todos;
-
-test
