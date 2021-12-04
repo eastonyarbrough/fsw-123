@@ -5,10 +5,7 @@ import todos from './STORE.js'
 function App() {
   return (
     <ul>
-      {todos.map((e, i) => <MyList
-        key = {i}
-        task = {todos[i].task}
-      />)}
+      <MyList task = {todos}/>
     </ul>
   );
 }

@@ -1,8 +1,12 @@
 export default function MyList(props) {
     return (
-        <li>
-            <input type="checkbox"></input>
-            <label>{props.task}</label>
-        </li>
+        props.task.map((e) => {
+            return (
+                <li>
+                    <input type="checkbox"></input>
+                    <label>{e.task}</label>
+                </li>
+            );
+        })
     );
 }
