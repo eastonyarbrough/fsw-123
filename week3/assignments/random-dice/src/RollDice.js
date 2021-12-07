@@ -15,7 +15,6 @@ export default function RollDice(props) {
             die1 = {die1}
             die2 = {die2}
             rollDice = {rollDice}
-            sides = {["one", "two", "three", "four", "five", "six"]}
         />
     )
 }
