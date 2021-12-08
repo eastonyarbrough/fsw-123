@@ -10,7 +10,12 @@ function App() {
   const completeToDo = (selTask, selID) => {
     const copyList = [...todos];
     const targetItem = copyList.findIndex(e => e.id === selID);
-    selTask.isCompleted = true;
+
+    if (selTask.isCompleted === false)
+      selTask.isCompleted = true;
+    else if (selTask.isCompleted === true)
+      selTask.isCompleted = false;
+
     copyList.splice(targetItem, 1, selTask)
     changeToDo(copyList);
   }
