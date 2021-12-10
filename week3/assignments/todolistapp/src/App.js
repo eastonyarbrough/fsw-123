@@ -28,13 +28,16 @@ function App() {
   }
 
   return (
-    <ul>
-      <ToDoList 
-        task = {todos}
-        completeToDo = {completeToDo}
-        deleteToDo = {deleteToDo}
-      />
-    </ul>
+    <div id="todoCont">
+      <h1>ToDo List!</h1>
+      <ul>
+        <ToDoList 
+          task = {todos}
+          completeToDo = {completeToDo}
+          deleteToDo = {deleteToDo}
+        />
+      </ul>
+    </div>
   );
 }
 

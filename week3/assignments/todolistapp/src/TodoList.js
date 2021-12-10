@@ -5,6 +5,7 @@ export default function ToDoList(props) {
         props.task.map((e) => {
             return (
                 <Todo
+                    key = {e.id}
                     task = {e}
                     completeToDo = {props.completeToDo}
                     deleteToDo = {props.deleteToDo}
