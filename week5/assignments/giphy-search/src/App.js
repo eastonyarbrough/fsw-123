@@ -13,7 +13,7 @@ function App() {
         .then(res => {
           let dataNum = 0;
           res.data.forEach(() => dataNum++)
-          const random = Math.floor(Math.random() * dataNum);
+          const random = Math.floor((Math.random() * dataNum) + 1);
           setSrc(res.data[random].images.original.url);
           setAlt(res.data[random].title);
         })
@@ -46,7 +46,7 @@ function App() {
           res.data.forEach(() => dataNum++);
 
           if (dataNum !== 0) {
-            const random = Math.floor(Math.random() * dataNum);
+            const random = Math.floor((Math.random() * dataNum) + 1);
             setSrc(res.data[random].images.original.url);
             setAlt(res.data[random].title);
           }
