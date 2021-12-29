@@ -1,0 +1,15 @@
+#inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgDiv>img {
+    padding: 20px;
+}
