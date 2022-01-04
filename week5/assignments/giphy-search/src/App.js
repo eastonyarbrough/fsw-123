@@ -1,75 +1,47 @@
 import './App.css';
 import {useState} from 'react';
 import {useEffect} from 'react';
+import GiphySearch from './GiphySearch.js'
 
 function App() {
   const [imgSrc, setSrc] = useState("");
   const [alt, setAlt] = useState("");
+  let userSearch = "dog";
 
   useEffect(() => {
-    const getGif = () => {
-      fetch('https://api.giphy.com/v1/gifs/search?q=dog&api_key=uaS3ozXFlc14EsLuPOXZq1pfURUJelQO')
-        .then(res => res.json())
-        .then(res => {
-          let dataNum = 0;
-          res.data.forEach(() => dataNum++)
+    getGif(userSearch);
+  }, [userSearch]);
+
+  const getGif = (search) => {
+    fetch(`https://api.giphy.com/v1/gifs/search?q=${encodeURIComponent(search)}&api_key=uaS3ozXFlc14EsLuPOXZq1pfURUJelQO`)
+      .then(res => res.json())
+      .then(res => {
+        let dataNum = 0;
+        res.data.forEach(() => dataNum++);
+
+        if (dataNum !== 0) {
           const random = Math.floor((Math.random() * dataNum) + 1);
           setSrc(res.data[random].images.original.url);
           setAlt(res.data[random].title);
-        })
-        .catch(err => console.log(err))
-    }
-
-    getGif();
-  }, []);
-
-  const newSearch = () => {
-    let userSearch = document.querySelector("#input").value;
-    let loading = document.createElement("h3");
-
-    document.querySelector("#curImg").src = "";
-    document.querySelector("#curImg").alt = "";
-
-    loading.textContent = "loading GIF...";
-    loading.id = "loading";
-
-    document.querySelector("#imgDiv").appendChild(loading);
-
-    if (document.querySelector("#noImg")) {
-      document.querySelector("#noImg").remove();
-    }
-
-    fetch(`https://api.giphy.com/v1/gifs/search?q=${userSearch}&api_key=uaS3ozXFlc14EsLuPOXZq1pfURUJelQO`)
-        .then(res => res.json())
-        .then(res => {
-          let dataNum = 0;
-          res.data.forEach(() => dataNum++);
-
-          if (dataNum !== 0) {
-            const random = Math.floor((Math.random() * dataNum) + 1);
-            setSrc(res.data[random].images.original.url);
-            setAlt(res.data[random].title);
-          }
-          else if (dataNum === 0) {
-            let noImg = document.createElement("h3");
-            noImg.textContent = "Sorry, there are no GIFs for that.";
-            noImg.id = "noImg";
-            document.querySelector("#imgDiv").appendChild(noImg);
-          }
-        })
-        .then(() => {
+        }
+        else if (dataNum === 0) {
+          let noImg = document.createElement("h3");
+          noImg.textContent = "Sorry, there are no GIFs for that.";
+          noImg.id = "noImg";
+          document.querySelector("#imgDiv").appendChild(noImg);
+        }
+      })
+      .then(() => {
+        if (document.querySelector("#loading")) {
           document.querySelector("#loading").remove();
-        })
-        .catch(err => console.log(err))
+        }
+      })
+      .catch(err => console.log(err))
   }
 
   return (
     <>
-      <div id="inputDiv">
-        <label>Enter a word or phrase: </label>
-        <input type="text" id="input" required></input>
-        <button onClick={() => {newSearch()}}>Search</button>
-      </div>
+      <GiphySearch getGif = {getGif}/>
       <div id="imgDiv">
         <img src={imgSrc} alt={alt} id="curImg"></img>
       </div>
