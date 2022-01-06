@@ -4,7 +4,7 @@ import GiphySearch from './GiphySearch.js'
 function App() {
   return (
     <>
-      <GiphySearch/>
+      <GiphySearch initQuery = {"dog"}/>
     </>
   );
 }

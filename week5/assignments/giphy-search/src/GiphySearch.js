@@ -3,11 +3,29 @@ import {useState, useEffect} from 'react';
 export default function GiphySearch(props) {
   const [imgSrc, setSrc] = useState("");
   const [alt, setAlt] = useState("");
-  let userSearch = "dog";
+  let userSearch = props.initQuery;
 
   useEffect(() => {
     getGif(userSearch);
   }, [userSearch]);
+
+  const newSearch = () => {
+    let userSearch = document.querySelector("#input").value;
+    
+    let loading = document.createElement("h3");
+    loading.textContent = "loading GIF...";
+    loading.id = "loading";
+    document.querySelector("#imgDiv").appendChild(loading);
+    
+    document.querySelector("#curImg").src = "";
+    document.querySelector("#curImg").alt = "";
+    
+    if (document.querySelector("#noImg")) {
+      document.querySelector("#noImg").remove();
+    }
+    
+    getGif(userSearch);
+  }
 
   const getGif = (search) => {
     fetch(`https://api.giphy.com/v1/gifs/search?q=${encodeURIComponent(search)}&api_key=uaS3ozXFlc14EsLuPOXZq1pfURUJelQO`)
@@ -34,24 +52,6 @@ export default function GiphySearch(props) {
         }
       })
       .catch(err => console.log(err))
-  }
-  
-  const newSearch = () => {
-    let userSearch = document.querySelector("#input").value;
-    
-    let loading = document.createElement("h3");
-    loading.textContent = "loading GIF...";
-    loading.id = "loading";
-    document.querySelector("#imgDiv").appendChild(loading);
-    
-    document.querySelector("#curImg").src = "";
-    document.querySelector("#curImg").alt = "";
-    
-    if (document.querySelector("#noImg")) {
-      document.querySelector("#noImg").remove();
-    }
-    
-    getGif(userSearch);
   }
 
   return(
