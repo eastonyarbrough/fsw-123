@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function ThreeSixSix() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === ".366 TKM");
+
+    const setFilter = useContext(FilterContext);
+    setFilter(".366 TKM");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {

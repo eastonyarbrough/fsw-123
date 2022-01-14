@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function FortyFive() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === ".45 ACP");
+
+    const setFilter = useContext(FilterContext);
+    setFilter(".45 ACP");
     
     const checkEmpty = (subject, string) => {
         if (string !== "") {

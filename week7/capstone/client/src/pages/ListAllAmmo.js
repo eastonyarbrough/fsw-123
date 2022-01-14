@@ -1,8 +1,12 @@
 import { useContext } from 'react';
-import { DataContext } from './App';
+import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function ListAllAmmo() {
     const data = useContext(DataContext);
+
+    const setFilter = useContext(FilterContext);
+    setFilter("All");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {

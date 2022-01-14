@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function ThreeHundredBlackout() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === ".300 Blackout");
+
+    const setFilter = useContext(FilterContext);
+    setFilter(".300 Blackout");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {

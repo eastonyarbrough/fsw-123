@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function ThreeThreeEight() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === ".338 Lapua Magnum");
+
+    const setFilter = useContext(FilterContext);
+    setFilter(".338 Lapua Magnum");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {

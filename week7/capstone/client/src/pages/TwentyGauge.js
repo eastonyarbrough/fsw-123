@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function TwentyGauge() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === "20ga");
+
+    const setFilter = useContext(FilterContext);
+    setFilter("20 Gauge");
     
     const checkEmpty = (subject, string) => {
         if (string !== "") {

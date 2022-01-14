@@ -6,19 +6,27 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: whitesmoke;
+    color: #a8a8a8;
 }
 
 #hmIcon {
     position: absolute;
-    left: 15px;
-    top: 15px;
+    left: 30px;
+    top: 20px;
+}
+
+#hmIcon:hover {
+    cursor: pointer;
 }
 
 #hmX {
     position: absolute;
-    left: 15px;
-    top: 15px;
+    left: 30px;
+    top: 20px;
+}
+
+#hmX:hover {
+    cursor: pointer;
 }
 
 #links {
@@ -41,7 +49,6 @@ body {
 .route {
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
     text-decoration: none;
     color: whitesmoke;
     padding: 20px;
@@ -57,19 +64,57 @@ header  {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
+}
+
+#hdrImg {
+    width: 90vw;
+    height: auto;
+    max-width: 848px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#searchInput {
+    width: 180px;
+}
+
+.searchBtn {
+    margin-left: 10px;
+    padding: 0 8px;
+}
+
+.searchBtn:hover {
+    cursor: pointer;
+}
+
+#searchCriteria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#currentFilter {
+    margin: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
 }
 
 main {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
 }
 
 .entryDiv {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 60px;
+    grid-template-columns: 1fr;
+    margin: 30px;
     background: url('./images/entryBkg.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,39 +123,102 @@ main {
 }
 
 .title {
-    grid-column-start: 1;
-    grid-column-end: 3;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .stats {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .effectiveness {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .image {
-    grid-column-start: 1;
-    grid-column-end: 3;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image>img {
-    width: 300px;
+    width: 100%;
     height: auto;
+    max-width: 300px;
     margin: 30px;
     border: 5px groove #787878;
+}
+
+@media only screen and (min-width: 768px) {
+    header  {
+        margin-top: 60px;
+    }
+
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    #currentFilter {
+    margin: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image>img {
+        width: 300px;
+        height: auto;
+        margin: 30px;
+        border: 5px groove #787878;
+    }
+}
+
+@media only screen and (min-width: 1775px) {
+    .entryDiv {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 60px;
+    }
+
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-decoration: underline;
+    }
+
+    .stats {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: left;
+        margin-left: 30px;
+        
+    }
+
+    .effectiveness {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-left: 30px;
+        text-align: left;
+    }
+
+    .image {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

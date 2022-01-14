@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function NineByEighteen() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === "9x18mm");
+
+    const setFilter = useContext(FilterContext);
+    setFilter("9x18mm");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {

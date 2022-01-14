@@ -1,9 +1,13 @@
 import { useContext } from 'react';
 import { DataContext } from '../App';
+import { FilterContext } from '../App';
 
 export default function FiveFourFiveByThirtyNine() {
     const data = useContext(DataContext);
     const filtered = data.filter(e => e.gauge === "5.45x39mm");
+
+    const setFilter = useContext(FilterContext);
+    setFilter("5.45x39mm");
 
     const checkEmpty = (subject, string) => {
         if (string !== "") {
