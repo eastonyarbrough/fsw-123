@@ -12,4 +12,11 @@ ammoRouter
         res.send(filtered);
     }) //GET query name
 
+    .post('/', (req, res) => {
+        const newEntry = req.body;
+        newEntry._id = uuid();
+        data.push(newEntry);
+        res.send(`${req.body.gauge} ${req.body.name} has been successfully added to the database`);
+    }) //POST one
+
 module.exports = ammoRouter;

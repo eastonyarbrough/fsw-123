@@ -105,6 +105,20 @@ header  {
     font-size: 20px;
 }
 
+#newInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.newInput {
+    width: 180px;
+    margin: 10px;
+}
+
 main {
     font-family: 'Roboto Condensed', sans-serif;
     display: grid;

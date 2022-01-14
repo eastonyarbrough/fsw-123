@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import { useEffect, useState, createContext } from 'react';
+import { v4 as uuid } from 'uuid'
 import './App.css';
 import Search from './Search.js'
+import NewEntry from './NewEntry.js'
 import ListAllAmmo from './pages/ListAllAmmo.js';
 import TwelveGauge from './pages/TwelveGauge.js';
 import TwentyGauge from './pages/TwentyGauge.js';
@@ -69,6 +71,39 @@ function App() {
       .then(res => setData(res))
       .catch(err => console.log(err))
   }
+
+  const postNew = async () => {
+    await fetch('/ammo', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: document.querySelector("#newName").value,
+        gauge: document.querySelector("#newGauge").value,
+        type: document.querySelector("#newType").value,
+        damage: document.querySelector("#newDmg").value,
+        penPower: document.querySelector("#newPenPower").value,
+        armorDmg: document.querySelector("#newArmDmg").value,
+        accuracy: document.querySelector("#newAccBonus").value,
+        recoil: document.querySelector("#newRecBonus").value,
+        fragChance: document.querySelector("#newFragChance").value,
+        lightBleed: document.querySelector("#newLBleed").value,
+        heavyBleed: document.querySelector("#newHBleed").value,
+        effectiveness: {
+          lvl1: document.querySelector("#newAC1").value,
+          lvl2: document.querySelector("#newAC2").value,
+          lvl3: document.querySelector("#newAC3").value,
+          lvl4: document.querySelector("#newAC4").value,
+          lvl5: document.querySelector("#newAC5").value,
+          lvl6: document.querySelector("#newAC6").value,
+        },
+        img: document.querySelector("#newImg").value,
+        _id: uuid()
+      })
+    })
+  }
   
   return (
     <BrowserRouter>
@@ -102,6 +137,7 @@ function App() {
             <Link className="route" to="/12.7x55mm">12.7x55mm</Link>
             <Link className="route" to="/40x46mm">40x46mm</Link>
           </div>
+          <NewEntry postNew = {postNew}/>
         </nav>
       </div>
       <header>
