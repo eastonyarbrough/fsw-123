@@ -1,0 +1,116 @@
+*{margin: 0; padding: 0}
+
+body {
+    background: url("./images/bkgImg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+#hmIcon {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#hmX {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 30px 80px 30px;
+}
+
+#routeLinks {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.route {
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.route:hover {
+    transform: translateY(-4px);
+    transition: 0.3s ease-out;
+    text-decoration: underline;
+}
+
+header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.entryDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 60px;
+    background: url('./images/entryBkg.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.stats {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 20px;
+}
+
+.effectiveness {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 20px;
+}
+
+.image {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image>img {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    border: 5px groove #787878;
+}

@@ -389,7 +389,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png",
         _id: uuid()
     },
     {
@@ -412,7 +412,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png",
         _id: uuid()
     },
     {
@@ -435,7 +435,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png",
         _id: uuid()
     },
     {
@@ -458,7 +458,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/20x70BUCKSHOTIMAGE.png",
         _id: uuid()
     },
     {
@@ -481,7 +481,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/58/2070DevastatorSlug.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/58/2070DevastatorSlug.png",
         _id: uuid()
     },
     {
@@ -504,7 +504,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/67/70x20SLUG_poleva3.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/67/70x20SLUG_poleva3.png",
         _id: uuid()
     },
     {
@@ -527,7 +527,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/20-70_Star_Slug.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/20-70_Star_Slug.png",
         _id: uuid()
     },
     {
@@ -550,7 +550,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b1/20x70SLUG_poleva6u.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b1/20x70SLUG_poleva6u.png",
         _id: uuid()
     },
     {
@@ -964,7 +964,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a3/LRNPCIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a3/LRNPCIMAGE.png",
         _id: uuid()
     },
     {
@@ -987,7 +987,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a3/LRNPCIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a3/LRNPCIMAGE.png",
         _id: uuid()
     },
     {
@@ -1010,7 +1010,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/ce/FMJ43IMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/ce/FMJ43IMAGE.png",
         _id: uuid()
     },
     {
@@ -1033,7 +1033,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b8/AKBSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b8/AKBSIMAGE.png",
         _id: uuid()
     },
     {
@@ -1056,7 +1056,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c1/PGLIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c1/PGLIMAGE.png",
         _id: uuid()
     },
     {
@@ -1079,7 +1079,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/PTGZHIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/PTGZHIMAGE.png",
         _id: uuid()
     },
     {
@@ -1102,7 +1102,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c5/PSTGZHIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c5/PSTGZHIMAGE.png",
         _id: uuid()
     },
     {
@@ -1309,7 +1309,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1b/.45_RIP_View.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1b/.45_RIP_View.png",
         _id: uuid()
     },
     {
@@ -1332,7 +1332,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/64/.45_HS_View.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/64/.45_HS_View.png",
         _id: uuid()
     },
     {
@@ -1355,7 +1355,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/80/.45LM_view.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/80/.45LM_view.png",
         _id: uuid()
     },
     {
@@ -1378,7 +1378,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/51/.45_FMJ_View.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/51/.45_FMJ_View.png",
         _id: uuid()
     },
     {
@@ -1401,7 +1401,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "magdump only"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a8/45ACPAP_view_p.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a8/45ACPAP_view_p.png",
         _id: uuid()
     },
     {
@@ -1677,7 +1677,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/4.6x30ActionImage.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/4.6x30ActionImage.png",
         _id: uuid()
     },
     {
@@ -1700,7 +1700,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "magdump only"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/86/4.6x30SubsonicImage.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/86/4.6x30SubsonicImage.png",
         _id: uuid()
     },
     {
@@ -1723,7 +1723,7 @@ let ammo = [
             lvl5: "effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/4.6x30FMJImage.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/4.6x30FMJImage.png",
         _id: uuid()
     },
     {
@@ -1746,7 +1746,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "very effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/4.6x30APenImage.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/4.6x30APenImage.png",
         _id: uuid()
     },
     {
@@ -1884,7 +1884,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5e/GEKSAIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5e/GEKSAIMAGE.png",
         _id: uuid()
     },
     {
@@ -1907,7 +1907,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/89/TKMFMJIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/89/TKMFMJIMAGE.png",
         _id: uuid()
     },
     {
@@ -1930,7 +1930,7 @@ let ammo = [
             lvl5: "its possible but unlikely",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4c/EKOIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4c/EKOIMAGE.png",
         _id: uuid()
     },
     {
@@ -1953,7 +1953,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5d/.366APView.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5d/.366APView.png",
         _id: uuid()
     },
     {
@@ -1976,7 +1976,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/73/AKSPIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/73/AKSPIMAGE.png",
         _id: uuid()
     },
     {
@@ -1999,7 +1999,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/AKHPIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/AKHPIMAGE.png",
         _id: uuid()
     },
     {
@@ -2022,7 +2022,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/AKPRSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/AKPRSIMAGE.png",
         _id: uuid()
     },
     {
@@ -2045,7 +2045,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/AKPRSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/AKPRSIMAGE.png",
         _id: uuid()
     },
     {
@@ -2068,7 +2068,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/31/AKUSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/31/AKUSIMAGE.png",
         _id: uuid()
     },
     {
@@ -2091,7 +2091,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/72/AKFMJIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/72/AKFMJIMAGE.png",
         _id: uuid()
     },
     {
@@ -2114,7 +2114,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/88/AKTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/88/AKTIMAGE.png",
         _id: uuid()
     },
     {
@@ -2137,7 +2137,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a0/AKPSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a0/AKPSIMAGE.png",
         _id: uuid()
     },
     {
@@ -2160,7 +2160,7 @@ let ammo = [
             lvl5: "magdump only",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ea/AKPPIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ea/AKPPIMAGE.png",
         _id: uuid()
     },
     {
@@ -2183,7 +2183,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "its possible but unlikely"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/dc/AKBPIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/dc/AKBPIMAGE.png",
         _id: uuid()
     },
     {
@@ -2206,7 +2206,7 @@ let ammo = [
             lvl5: "effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/75/AKBTIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/75/AKBTIMAGE.png",
         _id: uuid()
     },
     {
@@ -2229,7 +2229,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/78/7N40_Full.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/78/7N40_Full.png",
         _id: uuid()
     },
     {
@@ -2252,7 +2252,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "very effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/04/47BSIMAGE.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/04/47BSIMAGE.png",
         _id: uuid()
     },
     {
@@ -2275,7 +2275,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "basically ignores"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/7n39img.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4a/7n39img.png",
         _id: uuid()
     },
     {
@@ -2551,7 +2551,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Whisper.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Whisper.png",
         _id: uuid()
     },
     {
@@ -2574,7 +2574,7 @@ let ammo = [
             lvl5: "its possible but unlikely",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5d/Vmax_big.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5d/Vmax_big.png",
         _id: uuid()
     },
     {
@@ -2597,7 +2597,7 @@ let ammo = [
             lvl5: "magdump only",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/BlackoutBPZ_view_.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/BlackoutBPZ_view_.png",
         _id: uuid()
     },
     {
@@ -2620,7 +2620,7 @@ let ammo = [
             lvl5: "effective",
             lvl6: "magdump only"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/09/300_BLK_M62_View.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/09/300_BLK_M62_View.png",
         _id: uuid()
     },
     {
@@ -2643,7 +2643,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/35/BlackoutAP_View.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/35/BlackoutAP_View.png",
         _id: uuid()
     },
     {
@@ -2804,7 +2804,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/aa/Ultra_Nosler.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/aa/Ultra_Nosler.png",
         _id: uuid()
     },
     {
@@ -2827,7 +2827,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1d/BPZ_FMJ.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1d/BPZ_FMJ.png",
         _id: uuid()
     },
     {
@@ -2850,7 +2850,7 @@ let ammo = [
             lvl5: "magdump only",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fd/TPZ_SP.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fd/TPZ_SP.png",
         _id: uuid()
     },
     {
@@ -2873,7 +2873,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/43/7.62x51_M80_banner.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/43/7.62x51_M80_banner.png",
         _id: uuid()
     },
     {
@@ -2896,7 +2896,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "very effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/72/7.62x51_M62_banner.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/72/7.62x51_M62_banner.png",
         _id: uuid()
     },
     {
@@ -2919,7 +2919,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "basically ignores"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7a/7.62x51_M61_banner.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7a/7.62x51_M61_banner.png",
         _id: uuid()
     },
     {
@@ -2942,7 +2942,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "basically ignores"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3d/7.62x51M933view.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3d/7.62x51M933view.png",
         _id: uuid()
     },
     {
@@ -3126,7 +3126,7 @@ let ammo = [
             lvl5: "pointless",
             lvl6: "pointless"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/338tacx.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/338tacx.png",
         _id: uuid()
     },
     {
@@ -3149,7 +3149,7 @@ let ammo = [
             lvl5: "effective",
             lvl6: "magdump only"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/76/338_upz_view.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/76/338_upz_view.png",
         _id: uuid()
     },
     {
@@ -3172,7 +3172,7 @@ let ammo = [
             lvl5: "very effective",
             lvl6: "very effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ae/338fmj.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ae/338fmj.png",
         _id: uuid()
     },
     {
@@ -3195,7 +3195,7 @@ let ammo = [
             lvl5: "basically ignores",
             lvl6: "basically ignores"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f0/338ap.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f0/338ap.png",
         _id: uuid()
     },
     {
@@ -3287,7 +3287,7 @@ let ammo = [
             lvl5: "slightly effective",
             lvl6: "slightly effective"
         },
-        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/M5763D.png/",
+        img: "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/M5763D.png",
         _id: uuid()
     }
 ]

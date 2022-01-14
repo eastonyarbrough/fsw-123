@@ -1,9 +1,10 @@
 import { useContext } from 'react';
-import { DataContext } from './App';
+import { DataContext } from '../App';
 
-export default function ListAllAmmo() {
+export default function TwentyGauge() {
     const data = useContext(DataContext);
-
+    const filtered = data.filter(e => e.gauge === "20ga");
+    
     const checkEmpty = (subject, string) => {
         if (string !== "") {
             return(
@@ -13,7 +14,7 @@ export default function ListAllAmmo() {
     }
 
     return(
-        data.map(e => {
+        filtered.map(e => {
             return(
                 <div className='entryDiv'>
                     <h2 className='title'>{`${e.gauge} ${e.name}`}</h2>
